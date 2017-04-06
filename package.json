@@ -1,0 +1,11 @@
+{
+  "name": "friendly-chat",
+  "version": "0.4.2",
+  "description": "a simple realtime chat app built for computer network assignment",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
