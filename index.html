@@ -23,7 +23,7 @@
         <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
         <script>
             $(function(){
-                var socket = io('https://an-friendly-chat.herokuapp.com/?');
+                var socket = io();
                 $('form').submit(function(){
                     socket.emit('chat message', $('#m').val());
                     $('#messages').append($('<li>').text($('#m').val()));
