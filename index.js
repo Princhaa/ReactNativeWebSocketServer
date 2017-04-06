@@ -14,5 +14,6 @@ io.on('connection', function(socket){
 
 const server = app.listen(process.env.PORT || 5000, () => {
     console.log('Running on port: ' + server.address().port)
+    console.log(http)
 });
 
