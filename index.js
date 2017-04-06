@@ -12,6 +12,6 @@ io.on('connection', function(socket){
     });
 });
 
-http.listen(3000, function(){
-    console.log('listening on *:3000');
-});
+const server = app.listen(process.env.PORT || 5000, () => {
+    console.log('Running on port: '+server.address().port)
+})
